@@ -20,3 +20,6 @@ We believe in creating a supportive and inclusive learning environment. Please b
 
 # Let's Have Fun!
 Learning Java doesn't have to be boring. Let's make this course an enjoyable and memorable experience. Don't forget to take breaks, stay hydrated, and most importantly, have fun! 🎉
+
+#
+![Alt Text](https://i.pinimg.com/originals/81/17/8b/81178b47a8598f0c81c4799f2cdd4057.gif)
