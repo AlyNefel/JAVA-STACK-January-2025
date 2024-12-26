@@ -1,4 +1,4 @@
-## Welcome to the Java Stack Bootcamp! 🚀
+# Welcome to the Java Stack  🚀
 
 # Introduction
 Welcome, future Java wizards! 🧙‍♂️🧙‍♀️ Get ready to embark on an epic journey through the magical world of Java programming. This bootcamp is designed to transform you into a skilled Java developer, capable of tackling real-world projects with confidence and finesse.
