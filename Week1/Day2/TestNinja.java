@@ -25,6 +25,9 @@ public class TestNinja{
        Ninja.staticDemo("static test","test");
         System.out.println("*************"); System.out.println("*************"); System.out.println("*************");
        ninja1.staticDemo("esta","lafiesta");
+       int asciiValue = 65; // ASCII value for 'A' 
+       char character = (char) asciiValue; 
+       System.out.println("The character for ASCII value " + asciiValue + " is: " + character);
        
     }
 }
