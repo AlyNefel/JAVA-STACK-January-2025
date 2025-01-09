@@ -23,8 +23,8 @@ public String userName(@RequestParam(value="firstName") String firstName,@Reques
 }
 
 ## @PathVariable
--Declaration eg: 
--@RequestMapping("/home/user/{firstName}/{lastName}")
+- Declaration eg: 
+- @RequestMapping("/home/user/{firstName}/{lastName}")
 
 public String userPage1(@PathVariable("firstName") String firstName,@PathVariable("lastName") String lastName) {
 
