@@ -1,16 +1,16 @@
-### Spring boot 
+## Spring boot 
 - JAVA framework comes with a lot of pre-made settings, so you don't have to spend time setting everything up yourself. This means you can start writing your code right away. It also includes built-in servers and automatic configurations, which make the development process faster and easier.
 
-### Maven
+## Maven
 - Handles the dependencies, builds, and configurations for a Spring Boot project
 
-### @RestController
+## @RestController
 - Create and manage endpoints that handle HTTP requests and responses in a Spring Boot application
 
-### @RequestMapping
+## @RequestMapping
 - An annotation used in Spring Boot to map HTTP requests to specific handler methods in a controller
 
-### @RequestParam 
+## @RequestParam 
 - Declaration eg :
 - @RequestMapping("/home/user")
 public String userName(@RequestParam(value="firstName") String firstName,@RequestParam(value="lastName",required=false) String lastName) {
@@ -22,7 +22,7 @@ public String userName(@RequestParam(value="firstName") String firstName,@Reques
 
 }
 
-### @PathVariable
+## @PathVariable
 -Declaration eg: 
 -@RequestMapping("/home/user/{firstName}/{lastName}")
 
