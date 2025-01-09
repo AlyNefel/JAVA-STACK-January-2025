@@ -27,7 +27,7 @@ public String userName(@RequestParam(value="firstName") String firstName,@Reques
 -@RequestMapping("/home/user/{firstName}/{lastName}")
 
 public String userPage1(@PathVariable("firstName") String firstName,@PathVariable("lastName") String lastName) {
-// we don't type the value keyword 
+
 	
 System.out.print("helloo"+firstName);
 	
