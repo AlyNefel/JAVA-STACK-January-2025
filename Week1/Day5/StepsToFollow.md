@@ -1,7 +1,7 @@
 ## Steps to follow to create a new spring project :P.S : without Data-base dependencies
 - Create a new spring boot starter project
 - under /src/main we add a new folder named webapp
-- inside webapp we create anoter folder named WEB_INF  (that will hold all our view)
+- inside webapp we create anoter folder named  ```javascript {highlight=3}WEB_INF  (that will hold all our view)
 - under src/main/resources in application.properties we add spring.mvc.view.prefix=/WEB_INF/
 - copy those dependencies in your pom.xml file : 
 <dependencies>
