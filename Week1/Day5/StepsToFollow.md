@@ -2,7 +2,7 @@
 **P.S.: Without Database Dependencies**
 
 1. **Create a New Spring Boot Starter Project**
-   - Use Spring Initializr or your preferred IDE to create a new Spring Boot project.
+   - Use Spring Initializr or your STS IDE to create a new Spring Boot project.
 
 2. **Add a New Folder Named `webapp`**
    - Under `/src/main`, create a new folder named `webapp`.
