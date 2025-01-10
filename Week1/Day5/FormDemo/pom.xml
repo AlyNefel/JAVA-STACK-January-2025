@@ -1,10 +1,35 @@
-## Steps to follow to create a new spring project :P.S : without Data-base dependencies
-- Create a new spring boot starter project
-- under /src/main we add a new folder named webapp
-- inside webapp we create anoter folder named WEB_INF  (that will hold all our view)
-- under src/main/resources in application.properties we add spring.mvc.view.prefix=/WEB_INF/
-- copy those dependencies in your pom.xml file : 
-<dependencies>
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-parent</artifactId>
+		<version>3.4.1</version>
+		<relativePath/> <!-- lookup parent from repository -->
+	</parent>
+	<groupId>com.formdemo</groupId>
+	<artifactId>FormDemo</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>FormDemo</name>
+	<description>Demo project for JSP demo</description>
+	<url/>
+	<licenses>
+		<license/>
+	</licenses>
+	<developers>
+		<developer/>
+	</developers>
+	<scm>
+		<connection/>
+		<developerConnection/>
+		<tag/>
+		<url/>
+	</scm>
+	<properties>
+		<java.version>17</java.version>
+	</properties>
+	 <dependencies>
        
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -49,10 +74,13 @@
         </dependency>
     </dependencies>
 
-- right click on the main package / new / package : and name it in this format :  com.mainpackage.controllers
-- right click com.mainpackage.controllers : new / class / and name ur main controller 
-- add @Controller at the top of your controller name 
-- declare your routes using @RequestMapping || @GetMapping || @PostMapping  .. As needed
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+			</plugin>
+		</plugins>
+	</build>
 
-## How To add code snippet in STS 
-
+</project>
