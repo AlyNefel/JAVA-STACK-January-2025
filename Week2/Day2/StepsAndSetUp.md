@@ -76,7 +76,8 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-validation</artifactId>
         </dependency>
-    </dependencies>
+     </dependencies>
+    
      ```
 
 6. **Create a New Package for Controllers**
@@ -87,4 +88,14 @@
    - Add `@Controller` at the top of your controller class.
    - Declare your routes using `@RequestMapping`, `@GetMapping`, or `@PostMapping` as needed.
 
+8. **Create a New Package for Models**
+  - Right-click on the main package, select `New` -> `Package`, and name it in this format: `com.mainpackage.models`.
+  -  Add `@Entity` `@Table(name="nameOFTheModelInPlural"`  annotation to your model class
+9. **Create a New Package for Repositories**
+  - Right-click on the main package, select `New` -> `Package`, and name it in this format: `com.mainpackage.repositories`. - Inside the `repositories` package, create interfaces, not classes.
+  -  Add `@Repository` annotation to your repository interfaces.
+10. **Create a New Package for Services**
+    - Right-click on the main package, select `New` -> `Package`, and name it in this format: `com.mainpackage.services`.
+    - Add `@Service` annotation to your service class.
+   
 
