@@ -16,7 +16,7 @@
      spring.mvc.view.prefix=/WEB_INF/
      spring.mvc.view.suffix=.jsp
      logging.level.org.springframework.web.servlet.view=DEBUG
-     spring.datasource.url=jdbc:mysql://localhost:3306/databasename
+     spring.datasource.url=jdbc:mysql://localhost:3306/todos?createDatabaseIfNotExist=true
      spring.datasource.username=root
      spring.datasource.password=root
      spring.jpa.hibernate.ddl-auto=update
